@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.junit.himquickguide.MainActivity">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_person"
+            android:title="About HIM QuickGuide" />
+        <item
+            android:id="@+id/disc"
+            android:icon="@drawable/ic_warning"
+            android:title="Terms of Use" />
+        <item
+            android:id="@+id/apps"
+            android:icon="@drawable/ic_apps"
+            android:title="Get more Apps" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/events"
+                android:icon="@drawable/ic_event"
+                android:title="Events" />
+            <item
+                android:id="@+id/team"
+                android:icon="@drawable/ic_team"
+                android:title="Team Database management" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/ic_contact"
+                android:title="Contact Developer" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
